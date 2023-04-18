@@ -24,7 +24,7 @@ chmod +x /usr/bin/goflyway
 
 cat <<-EOF > "/caddybin/Caddyfile"
 slimehom61615php.herokuapp.com {
-    reverse_proxy localhost:8100
+    reverse_proxy localhost:80
 }
 EOF
 
