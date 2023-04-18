@@ -29,6 +29,6 @@ slimehom61615php.herokuapp.com {
 EOF
 
 
-goflyway -k y362227 &
+goflyway -k y362227 -l=":80"  &
 cd "/caddybin"
 ./caddy -conf="Caddyfile"
